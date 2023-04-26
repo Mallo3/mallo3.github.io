@@ -12,7 +12,7 @@ const introdata = {
         third: "I like to travel too",
     },
     description: "I'm Soumallya Hazra, currently working in a MNC. Chill it's not my resume wala website.😎",
-    your_img_url: "../src/soumallya.jpeg",
+    your_img_url: "",
 };
 
 const dataabout = {
