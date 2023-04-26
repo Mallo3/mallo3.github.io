@@ -38,8 +38,10 @@ const Headermain = () => {
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
-                  </li>
+                    <a href="https://mallo3.github.io/home">
+                      Portfolio 
+                     </a>
+                  </li> 
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
                   </li>
