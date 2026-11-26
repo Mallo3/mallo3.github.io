@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+      // Old site used routes like /about and /contact; they're now sections on one page.
+      var p = location.pathname.replace(/^\/+|\/+$/g, "").split("/")[0];
+      var known = { about: 1, certifications: 1, contact: 1, experience: 1, skills: 1, work: 1, portfolio: "work" };
+      var target = known[p] ? "/#" + (known[p] === 1 ? p : known[p]) : "/";
+      location.replace(target);
+    </script>
+  </head>
+  <body>
+    <a href="/">Go to homepage</a>
+  </body>
+</html>
